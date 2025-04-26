@@ -20,13 +20,6 @@ export function Results({ capital = 0, sellRate = 0, buyRate = 0 }) {
     profit = finalUsdt - capital || 0;
   }
 
-
-  console.log(`
-    vesFromSell: ${vesFromSell}
-    finalUsdt: ${finalUsdt}
-    profit: ${profit}
-    `);
-
   return (
     <>
       <Fade triggerOnce direction="up">
