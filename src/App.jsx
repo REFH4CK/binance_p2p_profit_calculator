@@ -70,10 +70,6 @@ export function App() {
                     label={"Buy Rate"}
                     placeholder={"USDT Buy rate"}
                   />
-
-                  <button className="bg-slate-600/60 text-slate-200 w-full h-[2.5rem] rounded-lg mt-4 hover:bg-slate-900/30 transition-all duration-300 cursor-pointer shadow-md">
-                    Calculate
-                  </button>
                 </form>
               </Fade>
             </section>
